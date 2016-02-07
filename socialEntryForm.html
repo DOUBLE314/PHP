@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href ="css/phpMM.css" rel="stylesheet" type="text/css"; />
+    <title>Добро пожаловать в наш виртуальный клуб</title>
+</head>
+<body>
+<div id="header"><h1> йо-хо-хо!</h1></div>
+<div id="exapmple"></div>
+<div id="content">
+<h1>Добро пожаловать!</h1>
+<p>Пожалуйста введите ниже свои данные для связи</p>
+<form action="scripts/getFormInfo.php" method="post">
+    <label for="first_name">Имя:</label>
+       <input type="text" name="first_name" size="20" /> <br/>
+       <label for="last_name">Фамилия:</label>
+    <input type="text" name="last_name" size="20" /><br/>
+    <label for="email">Адрес электронной почты:</label>
+    <input type="text" name="email" size="50" /><br/>
+    <label for="facebook_url">Url в facebook:</label>
+    <input type="text" name="facebook_url" size="50"><br/>
+    <label for="twitter_handle">Идентификатор в twitter:</label>
+    <input type="text" name="twitter_handle" size="20"/><br/>
+    </fieldset>
+    <br/>
+    <fieldset class="center">
+        <input type="submit" value="Вступить в мой фиртуальный клуб"/>
+        <input type="reset" value="Очистить форму" />
+    </fieldset>
+</form>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
